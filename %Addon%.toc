@@ -1,0 +1,12 @@
+## Author: Adriano Castro
+## Interface: 100207
+## Name: %AddonName%
+## Notes: %AddonDescription%
+## SavedVariables: %Table%
+## Title: %AddonName% |cffffee77%x.y.z%|r
+## Version: %x.y.z%
+## X-Curse-Project-ID: %id%
+
+lib\stormwind-library.lua
+
+%Addon%.lua

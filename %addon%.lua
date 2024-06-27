@@ -3,7 +3,7 @@ AddonTable = StormwindLibrary_vx_y_z.new({
       primary = '%hexadecimalColor%'
     },
     command = '%command%',
-    data = '%property%',
+    data = '%Table%',
     name = '%addonName%'
   })
 
