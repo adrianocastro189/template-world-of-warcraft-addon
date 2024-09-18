@@ -1,6 +1,11 @@
 TestAddonTable = BaseTestClass:new()
-    -- @covers AddonTable
-    function TestAddonTable:testMainAddonFile()
+
+-- @covers AddonTable
+TestCase.new()
+    :setName('addon table')
+    :setTestClass(TestAddonTable)
+    :setExecution(function()
         lu.assertNotIsNil(AddonTable)
-    end
+    end)
+    :register()
 -- end of TestAddonTable
