@@ -3,4 +3,4 @@ TestAddonTable = BaseTestClass:new()
     function TestAddonTable:testMainAddonFile()
         lu.assertNotIsNil(AddonTable)
     end
--- end of MultiTargetsTest
+-- end of TestAddonTable
